@@ -174,6 +174,7 @@ function Page() {
     const [wDateTime, setwDateTime] = useState("");
     const [offerEnd, setOfferEnd] = useState("");
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [whatsappUrl, setWhatsappUrl] = useState("");
     const [formErrors, setFormErrors] = useState<{ name?: string; email?: string; phone?: string }>({});
     const isValidEmail = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     const isValidPhone = (phone: string) => /^[0-9]{10}$/.test(phone);
@@ -189,6 +190,7 @@ function Page() {
                 let wDateTime = formatDate_(wDate);
                 setwDateTime(wDateTime)
                 setCampName(campName)
+                setWhatsappUrl(data?.wAurl);
 
                 //   setInterval("updateTimer()", 1000);
             }
@@ -263,6 +265,7 @@ function Page() {
             adsetName: urlParams.get("adset name"),
             adName: urlParams.get("ad name"),
             landingPageUrl: window.location.href,
+            whatsappUrl: whatsappUrl,
         };
 
         try {
