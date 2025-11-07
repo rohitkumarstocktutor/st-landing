@@ -315,7 +315,7 @@ function Page() {
                 t.src=v;s=b.getElementsByTagName(e)[0];
                 s.parentNode.insertBefore(t,s)}(window, document,'script',
                 'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '10041111282577074');
+                fbq('init', '2043591536397129');
                 fbq('track', 'PageView');
 
                 `}
@@ -325,7 +325,7 @@ function Page() {
                     height="1"
                     width="1"
                     style={{ display: 'none' }}
-                    src="https://www.facebook.com/tr?id=10041111282577074&ev=PageView&noscript=1"
+                    src="https://www.facebook.com/tr?id=2043591536397129&ev=PageView&noscript=1"
                 />
             </noscript>
 
