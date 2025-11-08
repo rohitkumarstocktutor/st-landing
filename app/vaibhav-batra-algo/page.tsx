@@ -337,9 +337,9 @@ function Page() {
         let redirectUrl = "";
 
         if (hostname.includes("chahataggrawal.in")) {
-            redirectUrl = "https://stocktutor.chahataggrawal.in/vibhor-algo-trading/thankyou";
+            redirectUrl = "https://stocktutor.chahataggrawal.in/vaibhav-batra-algo/thankyou";
         } else {
-            redirectUrl = "https://stocktutor.co/vibhor-algo-trading/thankyou";
+            redirectUrl = "https://stocktutor.co/vaibhav-batra-algo/thankyou";
         }
 
         const data = {
