@@ -344,9 +344,9 @@ function Page() {
         let redirectUrl = "";
 
         if (hostname.includes("chahataggrawal.in")) {
-            redirectUrl = "https://stocktutor.chahataggrawal.in/ayushi-forex-masterclass/thankyou";
+            redirectUrl = "https://stocktutor.chahataggrawal.in/ayushi-forx-masterclass/thankyou";
         } else {
-            redirectUrl = "https://stocktutor.co/ayushi-forex-masterclass/thankyou";
+            redirectUrl = "https://stocktutor.co/ayushi-forx-masterclass/thankyou";
         }
 
         const data = {
