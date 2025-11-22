@@ -289,18 +289,10 @@ function Page() {
                 let wDate = formatDate_(workDate);
                 setwDateTime(wDateTime)
                 setwDate(wDate)
-                setCampName(campName)
                 setWhatsappUrl(data?.wAurl);
-
-                //   setInterval("updateTimer()", 1000);
+                setCampName(campName)
             }
-            );
-
-        var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'Sep', 'Oct', 'Nov', 'December'];
-        var tomorrow = new Date();
-        tomorrow.setTime(tomorrow.getTime());
-
-        setOfferEnd(months[tomorrow.getMonth()] + " " + tomorrow.getDate() + ", " + tomorrow.getFullYear())
+        );
     }, [])
 
     const handleSubmit = async (e: React.FormEvent) => {
@@ -342,9 +334,9 @@ function Page() {
         const hostname = window.location.hostname;
 
         let redirectUrl = "";
-
-        if (hostname.includes("chahataggrawal.in")) {
-            redirectUrl = "https://stocktutor.chahataggrawal.in/ayushi-forx-masterclass/thankyou";
+    
+        if (whatsappUrl && whatsappUrl.trim() !== "") {
+            redirectUrl = whatsappUrl;
         } else {
             redirectUrl = "https://stocktutor.co/ayushi-forx-masterclass/thankyou";
         }
