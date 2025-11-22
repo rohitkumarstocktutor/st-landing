@@ -27,6 +27,10 @@ module.exports = {
         hostname: 'img.freepik.com'
       },
       {
+        protocol: 'https',
+        hostname: 'www.stocktutor.live'
+      },
+      {
         protocol: "https",
         hostname: "res.cloudinary.com"
       },
