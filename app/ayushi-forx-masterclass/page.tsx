@@ -501,7 +501,7 @@ fbq('track', 'PageView');
                                         </div>
                                         <button
                                             type="submit"
-                                            disabled={isSubmitting || !isValidEmail(UserEmail) || !isValidPhone(UserPhone)} 
+                                            disabled={isSubmitting || !UserName.trim() || !isValidEmail(UserEmail) || !isValidPhone(UserPhone)} 
                                             className={`w-full py-2 rounded-md transition text-xl text-white
                                                         ${isSubmitting
                                                     ? "bg-gray-400 cursor-not-allowed"
