@@ -336,7 +336,7 @@ function Page() {
         let redirectUrl = "";
     
         if (whatsappUrl && whatsappUrl.trim() !== "") {
-            redirectUrl = whatsappUrl;
+            redirectUrl = "https://stocktutor.co/ayushi-forx-masterclass/thankyou";
         } else {
             redirectUrl = "https://stocktutor.co/ayushi-forx-masterclass/thankyou";
         }
