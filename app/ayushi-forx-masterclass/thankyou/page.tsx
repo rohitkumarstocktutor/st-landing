@@ -44,8 +44,6 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('set', 'autoConfig', false, '709734288843766');
 fbq('init', '709734288843766');
-fbq('track', 'PageView');
-fbq('track', 'Lead');
 
         `}
       </Script>
